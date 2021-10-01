@@ -5,8 +5,7 @@ using namespace std;
 string str_zip(string const& s) {
 
 	string res = "";
-	char   c = s[0];
-	int	   count = 1;
+	int count = 1;
 	
 	for (size_t i = 0; i < s.size(); i++) {
 		if (s[i] == s[i + 1])
